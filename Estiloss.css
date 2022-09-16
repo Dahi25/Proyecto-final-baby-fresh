@@ -41,178 +41,15 @@ body{
   }
   
   .menu-main a{
-      height: 60px;
+      height: 70px;
     background-color:#DD9FFE;
     border-bottom: 1px solid#DD9FFE  ;
   }
 
 }
 
-  
-img{
-  max-width: 100%;
-}
-
-label.logo{
-  color: #fff;
-  font-size: 32px;
-  line-height: 60px;
-  padding: 0 99px;
-  font-weight: 600;
-}
-
-
-
-.header
-{
-  margin-bottom: 4em;
-  padding-left: 2em;
-  border-left: 6px solid #dd9eff;
-}
-
-.header h2
-{
-  text-transform: uppercase;
-  font-size: 2.5em;
-  font-weight: 300px;
-}
-
-
-
-/*********************************************************************************/
-/* Image Style                                                                   */
-/*********************************************************************************/
-
-.image
-{
-  display: inline-block;
-}
-
-.image img
-{
-  display: block;
-  width: 100%;
-}
-
-.image-full
-{
-  display: block;
-  width: 100%;
-  margin: 0 0 2em 0;
-}
-
-.image-left
-{
-  float: left;
-  margin: 0 2em 2em 0;
-}
-
-.image-centered
-{
-  display: block;
-  margin: 0 0 2em 0;
-}
-
-.image-centered img
-{
-  margin: 0 auto;
-  width: auto;
-}
-
-/*********************************************************************************/
-/* List Styles                                                                   */
-/*********************************************************************************/
-
-
-
-
-/*********************************************************************************/
-/* Button Style                                                                  */
-/*********************************************************************************/
-
-.button
-{
-  display: inline-block;
-  margin-top: 2em;
-  padding: 1em 2em 1em 2em;
-  background: #dd9eff;
-  border-bottom: 4px solid #FFF;
-  letter-spacing: 0.20em;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 0.90em;
-  color: #FFF;
-}
-
-  
-/*********************************************************************************/
-/* 4-column                                                                      */
-/*********************************************************************************/
-
-
-/*********************************************************************************/
-/* 2-column                                                                      */
-/*********************************************************************************/
-
-.tbox1,
-.tbox2
-{
-  width: 490px;
-}
-
-.tbox1
-{
-  float: left;
-}
-
-.tbox2
-{
-  float: right;
-}
-
-.tbox3,
-.tbox4
-{
-  width: 490px;
-  float: left;
-
-}
-
-.tbox3
-{
-  float: right;
-  
-}
-
-.tbox4
-{
-  float: left;
-
-}
-
-
-/*********************************************************************************/
-/* Menu                                                                          */
-/*********************************************************************************/
-
-label.logo{
-color: #fff;
-font-size: 32px;
-line-height: 50px;
-padding: 0 99px;
-font-weight: 500;
-}
-
-/*********************************************************************************/
-/* Page                                                                          */
-/*********************************************************************************/
-
-#page
-{
-  overflow: hidden;
-  padding: 0em 0em;
-}
+  img{
+    max-width: 100%;
 }
 label.logo{
   color: #fff;
@@ -260,7 +97,16 @@ label.logo{
     justify-content: center;
     width: 100%;
 }
-
+//cards tienda//
+#products{
+margin-top:50px;
+height:50px;
+}
+.product-img-top{
+  width:40px;
+  height: 50px;
+  object-fit: cover;
+}
 .pagination-item{
     display: flex;
     flex-direction: column;
@@ -338,139 +184,6 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
         transform: translate3d(calc(-100% * 2), 0, 0);
     }
 }
-img{
-  max-width: 100%;
-}
-
-
-
-.header
-{
-  margin-bottom: 4em;
-  padding-left: 2em;
-  border-left: 6px solid #dd9eff;
-}
-
-.header h2
-{
-  text-transform: uppercase;
-  font-size: 2.5em;
-  font-weight: 300;
-}
-
-
-
-/*********************************************************************************/
-/* Image Style                                                                   */
-/*********************************************************************************/
-
-.image
-{
-  display: inline-block;
-}
-
-.image img
-{
-  display: block;
-  width: 100%;
-}
-
-.image-full
-{
-  display: block;
-  width: 100%;
-  margin: 0 0 2em 0;
-}
-
-.image-left
-{
-  float: left;
-  margin: 0 2em 2em 0;
-}
-
-.image-centered
-{
-  display: block;
-  margin: 0 0 2em 0;
-}
-
-.image-centered img
-{
-  margin: 0 auto;
-  width: auto;
-}
-
-/*********************************************************************************/
-/* List Styles                                                                   */
-/*********************************************************************************/
-
-
-
-
-/*********************************************************************************/
-/* Button Style                                                                  */
-/*********************************************************************************/
-
-.button
-{
-  display: inline-block;
-  margin-top: 2em;
-  padding: 1em 2em 1em 2em;
-  background: #dd9eff;
-  border-bottom: 4px solid #FFF;
-  letter-spacing: 0.20em;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 0.90em;
-  color: #FFF;
-}
-
-  
-/*********************************************************************************/
-/* 4-column                                                                      */
-/*********************************************************************************/
-
-
-/*********************************************************************************/
-/* 2-column                                                                      */
-/*********************************************************************************/
-
-.tbox1,
-.tbox2
-{
-  width: 490px;
-}
-
-.tbox1
-{
-  float: left;
-}
-
-.tbox2
-{
-  float: right;
-}
-
-.tbox3,
-.tbox4
-{
-  width: 490px;
-  float: left;
-
-}
-
-.tbox3
-{
-  float: right;
-  
-}
-
-.tbox4
-{
-  float: left;
-
-}
 
   .logo{
     float: left;
@@ -498,8 +211,9 @@ img{
  background: rgba(0,0,0,0.3);
  border-radius: 30px;
   }
+
   .h5 text{
-    background-color: #727272;
+    background-color: honeydew;
   }
 .site-footer
 {
@@ -507,7 +221,7 @@ img{
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
-  color:#727272;
+  color:#fff;
 }
 .site-footer hr
 {
@@ -520,7 +234,7 @@ img{
 }
 .site-footer h6
 {
-  color:#33353d;
+  color:#fff;
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
@@ -528,7 +242,7 @@ img{
 }
 .site-footer a
 {
-  color:#727272;
+  color:#fff;
 }
 .site-footer a:hover
 {
@@ -546,7 +260,7 @@ img{
 }
 .footer-links a
 {
-  color:#727272;
+  color:#fff;
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
@@ -569,7 +283,7 @@ img{
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color:#33353d;
+  background-color:#33353d
 }
 .copyright-text
 {
@@ -589,7 +303,6 @@ img{
     padding-bottom:0
   }
   .site-footer .copyright-text,.site-footer .social-icons
-  
   {
     text-align:center
   }
