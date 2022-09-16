@@ -8,7 +8,7 @@ body{
   justify-content: space-between;
   background: #DD9FFE;
   border-bottom: 1px solid #DD9FFE;
-  height: 45px;
+  height: 60px;
 }
 
 .menu-main a{
@@ -17,7 +17,7 @@ body{
   display: flex;
   color:white;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;    
   justify-content: center;
   align-items: center;
@@ -25,6 +25,7 @@ body{
 
 .menu-main a:hover{
   background: rgba(0,0,0, .1);
+  border-radius: 30px;
 }
 
 .menu-main a.active{
@@ -40,7 +41,7 @@ body{
   }
   
   .menu-main a{
-      height: 45px;
+      height: 60px;
     background-color:#DD9FFE;
     border-bottom: 1px solid#DD9FFE  ;
   }
@@ -50,6 +51,14 @@ body{
   
 img{
   max-width: 100%;
+}
+
+label.logo{
+  color: #fff;
+  font-size: 32px;
+  line-height: 60px;
+  padding: 0 99px;
+  font-weight: 600;
 }
 
 
@@ -65,7 +74,7 @@ img{
 {
   text-transform: uppercase;
   font-size: 2.5em;
-  font-weight: 300;
+  font-weight: 300px;
 }
 
 
@@ -194,39 +203,6 @@ line-height: 50px;
 padding: 0 99px;
 font-weight: 500;
 }
-
-.logo{
-  float: left;
-}
- #menu{
-   background-color:#DD9FFE;
- }
- #menu ul{
-   list-style: none;
-   margin: 0px;
-   padding: 0px;
-   height: 60px;
-  }
-#menu ul li{
-display: inline-block;
-}
-#menu ul li a{
- color:white;
- display: block;
- text-decoration: none;
- display: block;
- padding: 17px 40px;
-}
-#menu ul li a:hover{
-background: rgba(0,0,0,0.3);
-border-radius: 30px;
-}
-
-.h5 text{
-  background-color: honeydew;
-}
-
-
 
 /*********************************************************************************/
 /* Page                                                                          */
@@ -523,7 +499,7 @@ img{
  border-radius: 30px;
   }
   .h5 text{
-    background-color: #96a2b2;
+    background-color: #727272;
   }
 .site-footer
 {
@@ -531,11 +507,11 @@ img{
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
-  color:#96a2b2;
+  color:#727272;
 }
 .site-footer hr
 {
-  border-top-color:#96a2b2;
+  border-top-color:#fff;
   opacity:0.6
 }
 .site-footer hr.small
@@ -552,7 +528,7 @@ img{
 }
 .site-footer a
 {
-  color:#96a2b2;
+  color:#727272;
 }
 .site-footer a:hover
 {
@@ -570,7 +546,7 @@ img{
 }
 .footer-links a
 {
-  color:#96a2b2;
+  color:#727272;
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
@@ -593,7 +569,7 @@ img{
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color:#33353d
+  background-color:#33353d;
 }
 .copyright-text
 {
